@@ -1,3 +1,4 @@
 require('./bootstrap');
 
-import Example from './component/Example';
+import Root from './component/Root';
+import Header from './component/headerComponent/Header';

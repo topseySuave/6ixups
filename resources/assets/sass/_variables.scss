@@ -22,6 +22,7 @@ $font-family-sans-serif: "Raleway", sans-serif;
 $font-size-base: 14px;
 $line-height-base: 1.6;
 $text-color: #636b6f;
+$default-6ix-color: #2e8b57;
 
 // Navbar
 $navbar-default-bg: #fff;
@@ -36,3 +37,7 @@ $input-color-placeholder: lighten($text-color, 30%);
 
 // Panels
 $panel-default-heading-bg: #fff;
+
+//dimensions
+$pad10: 10px;
+$pad20: 20px;
