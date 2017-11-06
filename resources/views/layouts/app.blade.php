@@ -16,7 +16,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar-fixed-top navbar ">
+        <nav class="navbar-fixed navbar">
             <div class="nav-wrapper">
                 <div class="navbar-header pad__20">
                     <!-- Collapsed Hamburger -->
