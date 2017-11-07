@@ -11,6 +11,12 @@
 //Materialize
 @import "node_modules/materialize-sass/sass/materialize.scss";
 
+//mixins
+@import "mixins";
+
+//functions
+@import "functions";
+
 //custom
 @import "./custom/custom";
 

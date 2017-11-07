@@ -18,3 +18,7 @@
 Auth::routes();
 
 Route::get('/', 'IndexController@index')->name('index');
+
+Route::get('/6ix/{id}', function () {
+    return view('layouts.6ix-layout.6ix');
+});

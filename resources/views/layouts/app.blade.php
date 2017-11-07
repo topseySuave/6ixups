@@ -13,7 +13,7 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    {{--<link rel="stylesheet" href="/css/mtrlicon.css">--}}
+    <link rel="stylesheet" href="/css/mtrlicon.css">
 </head>
 <body>
     <div id="app">
