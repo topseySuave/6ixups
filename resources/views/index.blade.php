@@ -1,14 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="sd__bar hide-on-small-only">
-        <ul class="sb__cats">
-            @for($i = 0; $i < 13; $i++)
-                <li><a href="#{{$i}}"><span class="box" style="background-image: url('img/demo/alvin.png')"></span></a></li>
-            @endfor
-            <li class="trans__list"><span class="material-icons">menu</span></li>
-        </ul>
+    <div class="sd__bar hide-on-small-only" id="sd__bar">
+        {{--<ul class="sb__cats">--}}
+            {{--<li>--}}
+                {{--<a href="#">--}}
+                    {{--<span class="box" style="background-image: url('/img/demo/alvin.png')"></span>--}}
+                {{--</a>--}}
+            {{--</li>--}}
+            {{--<li class="trans__list"><span class="material-icons">menu</span></li>--}}
+        {{--</ul>--}}
     </div>
+
     <div class="contain">
         <div class="row main_container">
             <div class="col s12 l6 m12">
