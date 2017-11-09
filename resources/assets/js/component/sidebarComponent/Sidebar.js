@@ -24,7 +24,7 @@ class SideBar extends Component{
                 },
                 {
                     name: "office",
-                    image_url: 'img/demo/office.png',
+                    image_url: 'img/demo/office.jpg',
                 },
                 {
                     name: "mobile",
@@ -56,7 +56,7 @@ class SideBar extends Component{
         return (
             <ul className="sb__cats">
                 {catItems}
-                <li className="trans__list"><span className="material-icons">menu</span></li>
+                {/*<li className="trans__list"><span className="material-icons">menu</span></li>*/}
             </ul>
         );
     };

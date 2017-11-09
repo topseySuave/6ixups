@@ -8,16 +8,27 @@
 .no-margin
   @include margin(0 !important)
 
+.clear
+  clear: both
+  
+.display__flex
+  display: inline-flex !important
+
 .contain
+  width: 94%
   float: left
   position: relative
-  top: 64px
   margin: 0 0 0 80px
+  top: 64px
 
 .contain__6ix
   position: relative
   top: 64px
   @include pad__top(20px)
+
+.card__6_holdr
+  @include pad__left(40px !important)
+  @include pad__right(40px !important)
 
 .ad__6ix
   @include pad__top(10px)
@@ -33,7 +44,7 @@
   position: fixed
   top: 64px
   background: #F5F5F5
-  z-index: -1
+  z-index: 0
 
   .sb__cats
     width: 100%
@@ -78,7 +89,8 @@
   background: rgba(0, 0, 0, .5)
 
 .main_container
-  padding: 20px
+  @include pad__top(20px)
+  @include pad__bottom(20px)
   
 .ad__holdr
   width: 100%
@@ -124,7 +136,7 @@
 
 .feed__back_info
   text-align: center
-  margin-bottom: 5px
+  margin-right: 3em
   font:
     size: small
   color: #333

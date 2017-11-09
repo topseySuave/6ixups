@@ -3,7 +3,7 @@
 @section('content')
     <div class="container contain__6ix">
         <div class="row">
-            <div class="col s12 l8 m8">
+            <div class="col s12 l8 m8 card__6_holdr" id="card__6_holdr">
                 <div class="card card__post_holdr" id="uub">
                     <div class="card-content">
                         <a href="/6ix/IUndsHSZN4J">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>

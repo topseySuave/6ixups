@@ -62,7 +62,13 @@ nav ul a
   a
     color: $default-6ix-text
 
+.card.small
+  height: auto !important
+  .card-image
+    max-height: 100px !important
 
+    img
+      @include translateY(-25%)
 
 //.container
 //  position: relative
